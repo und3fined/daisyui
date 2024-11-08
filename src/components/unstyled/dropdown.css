@@ -5,7 +5,7 @@
   @apply outline-none;
 }
 .dropdown .dropdown-content {
-  @apply absolute;
+  @apply absolute border border-base-content;
 }
 .dropdown:is(:not(details)) .dropdown-content {
   @apply invisible opacity-0;
