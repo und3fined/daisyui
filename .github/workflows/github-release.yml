@@ -60,10 +60,9 @@ jobs:
         run: ${{ env.runtime }} run build
 
       - name: Run release command
-        if: github.repository == 'saadeghi/daisyui'
         run: |
-          git config --local user.email "pouya.saadeghi@gmail.com"
-          git config --local user.name "Pouya Saadeghi"
+          git config --local user.email "me@und3fined.com"
+          git config --local user.name "und3fy"
           ${{ env.runtime }} run release${{ inputs.release-type }}
 
       - name: Read package version from package.json
@@ -106,7 +105,7 @@ jobs:
           tar -xzf daisyui-*.tgz
 
       - name: Publish package via Github
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: release
