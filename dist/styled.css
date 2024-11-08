@@ -549,7 +549,10 @@
   outline-offset: 2px
 }
 .dropdown .dropdown-content {
-  position: absolute
+  position: absolute;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-border-opacity)))
 }
 .dropdown:is(:not(details)) .dropdown-content {
   visibility: hidden;
