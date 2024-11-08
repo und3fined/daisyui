@@ -1,7 +1,8 @@
 .btn {
-  @apply rounded-btn inline-flex h-12 min-h-[3rem] shrink-0 cursor-pointer select-none flex-wrap items-center justify-center border-transparent px-4 text-center;
+  @apply rounded-btn inline-flex h-10 min-h-[2.5rem] shrink-0 cursor-pointer select-none flex-wrap items-center justify-center border-transparent px-4 text-center;
   font-size: 0.875rem;
   line-height: 1em;
+
   /* disabled */
   &-disabled,
   &[disabled],
@@ -11,10 +12,11 @@
 
   /* shapes */
   &-square {
-    @apply h-12 w-12 p-0;
+    @apply h-10 w-10 p-0;
   }
+
   &-circle {
-    @apply h-12 w-12 rounded-full p-0;
+    @apply h-10 w-10 rounded-full p-0;
   }
 }
 
@@ -23,6 +25,7 @@
 :where(.btn:is(input[type="radio"])) {
   @apply w-auto appearance-none;
 }
+
 .btn:is(input[type="checkbox"]):after,
 .btn:is(input[type="radio"]):after {
   @apply content-[attr(aria-label)];
