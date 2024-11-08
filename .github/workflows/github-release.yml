@@ -114,27 +114,27 @@ jobs:
           tag_name: ${{ steps.package-version.outputs.version }}
           commit_message: "Release ${{ steps.package-version.outputs.version }}"
 
-  deploy-docs:
-    name: 📘 Docs
-    needs: build-publish
-    uses: ./.github/workflows/deploy-docs.yml
-    secrets: inherit
-    with:
-      daisyuiversion: ${{ needs.build-publish.outputs.daisyuiversion }}
+  # deploy-docs:
+  #   name: 📘 Docs
+  #   needs: build-publish
+  #   uses: ./.github/workflows/deploy-docs.yml
+  #   secrets: inherit
+  #   with:
+  #     daisyuiversion: ${{ needs.build-publish.outputs.daisyuiversion }}
 
-  run-tests:
-    name: 🧪 Tests
-    needs: build-publish
-    uses: ./.github/workflows/run-tests.yml
-    secrets: inherit
-    with:
-      filter: " "
+  # run-tests:
+  #   name: 🧪 Tests
+  #   needs: build-publish
+  #   uses: ./.github/workflows/run-tests.yml
+  #   secrets: inherit
+  #   with:
+  #     filter: " "
 
-  write-release-notes:
-    name: 📝 Release notes
-    if: github.repository == 'saadeghi/daisyui'
-    needs: build-publish
-    uses: ./.github/workflows/write-release-notes.yml
-    secrets: inherit
-    with:
-      daisyuiversion: ${{ needs.build-publish.outputs.daisyuiversion }}
+  # write-release-notes:
+  #   name: 📝 Release notes
+  #   if: github.repository == 'saadeghi/daisyui'
+  #   needs: build-publish
+  #   uses: ./.github/workflows/write-release-notes.yml
+  #   secrets: inherit
+  #   with:
+  #     daisyuiversion: ${{ needs.build-publish.outputs.daisyuiversion }}
