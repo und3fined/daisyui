@@ -27765,14 +27765,14 @@ details.collapse summary::-webkit-details-marker {
     padding-right: 0.75rem;
     font-size: 0.875rem}
 .btn-md {
-    height: 3rem;
-    min-height: 3rem;
+    height: 2.5rem;
+    min-height: 2.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 0.875rem}
 .btn-lg {
-    height: 4rem;
-    min-height: 4rem;
+    height: 3.5rem;
+    min-height: 3.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-size: 1.125rem}
@@ -27789,12 +27789,12 @@ details.collapse summary::-webkit-details-marker {
     width: 2rem;
     padding: 0px}
 .btn-square:where(.btn-md) {
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     padding: 0px}
 .btn-square:where(.btn-lg) {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     padding: 0px}
 .btn-circle:where(.btn-xs) {
     height: 1.5rem;
@@ -27807,13 +27807,13 @@ details.collapse summary::-webkit-details-marker {
     border-radius: 9999px;
     padding: 0px}
 .btn-circle:where(.btn-md) {
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 9999px;
     padding: 0px}
 .btn-circle:where(.btn-lg) {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 9999px;
     padding: 0px}
 .card-side {
@@ -60846,14 +60846,14 @@ html:has(.drawer-open.drawer-open) {
         padding-right: 0.75rem;
         font-size: 0.875rem}
     .sm\:btn-md {
-        height: 3rem;
-        min-height: 3rem;
+        height: 2.5rem;
+        min-height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem}
     .sm\:btn-lg {
-        height: 4rem;
-        min-height: 4rem;
+        height: 3.5rem;
+        min-height: 3.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem}
@@ -60862,12 +60862,12 @@ html:has(.drawer-open.drawer-open) {
         width: 2rem;
         padding: 0px}
     .btn-square:where(.sm\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         padding: 0px}
     .btn-square:where(.sm\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         padding: 0px}
     .btn-circle:where(.sm\:btn-sm) {
         height: 2rem;
@@ -60875,13 +60875,13 @@ html:has(.drawer-open.drawer-open) {
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.sm\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.sm\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         border-radius: 9999px;
         padding: 0px}
     .sm\:card-side {
@@ -61373,14 +61373,14 @@ html:has(.drawer-open.drawer-open) {
         padding-right: 0.75rem;
         font-size: 0.875rem}
     .md\:btn-md {
-        height: 3rem;
-        min-height: 3rem;
+        height: 2.5rem;
+        min-height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem}
     .md\:btn-lg {
-        height: 4rem;
-        min-height: 4rem;
+        height: 3.5rem;
+        min-height: 3.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem}
@@ -61389,12 +61389,12 @@ html:has(.drawer-open.drawer-open) {
         width: 2rem;
         padding: 0px}
     .btn-square:where(.md\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         padding: 0px}
     .btn-square:where(.md\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         padding: 0px}
     .btn-circle:where(.md\:btn-sm) {
         height: 2rem;
@@ -61402,13 +61402,13 @@ html:has(.drawer-open.drawer-open) {
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.md\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.md\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         border-radius: 9999px;
         padding: 0px}
     .md\:card-side {
@@ -61900,14 +61900,14 @@ html:has(.drawer-open.drawer-open) {
         padding-right: 0.75rem;
         font-size: 0.875rem}
     .lg\:btn-md {
-        height: 3rem;
-        min-height: 3rem;
+        height: 2.5rem;
+        min-height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem}
     .lg\:btn-lg {
-        height: 4rem;
-        min-height: 4rem;
+        height: 3.5rem;
+        min-height: 3.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem}
@@ -61916,12 +61916,12 @@ html:has(.drawer-open.drawer-open) {
         width: 2rem;
         padding: 0px}
     .btn-square:where(.lg\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         padding: 0px}
     .btn-square:where(.lg\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         padding: 0px}
     .btn-circle:where(.lg\:btn-sm) {
         height: 2rem;
@@ -61929,13 +61929,13 @@ html:has(.drawer-open.drawer-open) {
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.lg\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.lg\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         border-radius: 9999px;
         padding: 0px}
     .lg\:card-side {
@@ -62427,14 +62427,14 @@ html:has(.drawer-open.drawer-open) {
         padding-right: 0.75rem;
         font-size: 0.875rem}
     .xl\:btn-md {
-        height: 3rem;
-        min-height: 3rem;
+        height: 2.5rem;
+        min-height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem}
     .xl\:btn-lg {
-        height: 4rem;
-        min-height: 4rem;
+        height: 3.5rem;
+        min-height: 3.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem}
@@ -62443,12 +62443,12 @@ html:has(.drawer-open.drawer-open) {
         width: 2rem;
         padding: 0px}
     .btn-square:where(.xl\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         padding: 0px}
     .btn-square:where(.xl\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         padding: 0px}
     .btn-circle:where(.xl\:btn-sm) {
         height: 2rem;
@@ -62456,13 +62456,13 @@ html:has(.drawer-open.drawer-open) {
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.xl\:btn-md) {
-        height: 3rem;
-        width: 3rem;
+        height: 2.5rem;
+        width: 2.5rem;
         border-radius: 9999px;
         padding: 0px}
     .btn-circle:where(.xl\:btn-lg) {
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         border-radius: 9999px;
         padding: 0px}
     .xl\:card-side {
