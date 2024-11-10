@@ -1,6 +1,6 @@
 .input {
   @apply shrink appearance-none;
-  @apply h-12 px-4 text-sm leading-loose;
+  @apply h-10 px-4 text-sm leading-loose;
 }
 .input[type="number"]::-webkit-inner-spin-button,
 .input-md[type="number"]::-webkit-inner-spin-button {
