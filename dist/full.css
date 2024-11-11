@@ -5036,7 +5036,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
     background-color: var(--fallback-p,oklch(var(--p)/0.2));
-    --tw-shadow-color: var(--fallback-p,oklch(var(--p)/1));
+    --tw-shadow-color: var(--fallback-p,oklch(var(--p)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-secondary {
     --tw-border-opacity: 1;
@@ -5046,7 +5046,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-s,oklch(var(--s)/var(--tw-border-opacity)));
     background-color: var(--fallback-s,oklch(var(--s)/0.2));
-    --tw-shadow-color: var(--fallback-s,oklch(var(--s)/1));
+    --tw-shadow-color: var(--fallback-s,oklch(var(--s)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-accent {
     --tw-border-opacity: 1;
@@ -5056,7 +5056,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-a,oklch(var(--a)/var(--tw-border-opacity)));
     background-color: var(--fallback-a,oklch(var(--a)/0.2));
-    --tw-shadow-color: var(--fallback-a,oklch(var(--a)/1));
+    --tw-shadow-color: var(--fallback-a,oklch(var(--a)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-info {
     --tw-border-opacity: 1;
@@ -5066,7 +5066,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-success {
     --tw-border-opacity: 1;
@@ -5076,7 +5076,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-warning {
     --tw-border-opacity: 1;
@@ -5086,7 +5086,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input-error {
     --tw-border-opacity: 1;
@@ -5096,7 +5096,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .input:has(> input[disabled]),
   .input-disabled,
@@ -6179,8 +6179,8 @@ details.collapse summary::-webkit-details-marker {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     border-color: var(--fallback-bc,oklch(var(--bc)/0.3));
     background-color: var(--fallback-b1,oklch(var(--b1)/0.8));
-    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
     outline: 2px solid transparent;
     outline-offset: 2px}
 .textarea-ghost {
@@ -6197,7 +6197,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
     background-color: var(--fallback-p,oklch(var(--p)/0.2));
-    --tw-shadow-color: var(--fallback-p,oklch(var(--p)/1));
+    --tw-shadow-color: var(--fallback-p,oklch(var(--p)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-secondary {
     --tw-border-opacity: 1;
@@ -6206,7 +6206,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-s,oklch(var(--s)/var(--tw-border-opacity)));
     background-color: var(--fallback-s,oklch(var(--s)/0.2));
-    --tw-shadow-color: var(--fallback-s,oklch(var(--s)/1));
+    --tw-shadow-color: var(--fallback-s,oklch(var(--s)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-accent {
     --tw-border-opacity: 1;
@@ -6215,7 +6215,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-a,oklch(var(--a)/var(--tw-border-opacity)));
     background-color: var(--fallback-a,oklch(var(--a)/0.2));
-    --tw-shadow-color: var(--fallback-a,oklch(var(--a)/1));
+    --tw-shadow-color: var(--fallback-a,oklch(var(--a)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-info {
     --tw-border-opacity: 1;
@@ -6224,7 +6224,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-success {
     --tw-border-opacity: 1;
@@ -6233,7 +6233,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-warning {
     --tw-border-opacity: 1;
@@ -6242,7 +6242,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-error {
     --tw-border-opacity: 1;
@@ -6251,7 +6251,7 @@ details.collapse summary::-webkit-details-marker {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .textarea-disabled,
   .textarea:disabled,
@@ -29274,7 +29274,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:input-success:hover {
     --tw-border-opacity: 1;
@@ -29283,7 +29283,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:input-warning:hover {
     --tw-border-opacity: 1;
@@ -29292,7 +29292,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:input-error:hover {
     --tw-border-opacity: 1;
@@ -29301,7 +29301,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 @supports (color:color-mix(in oklab,black,black)) {
     @media (hover:hover) {
@@ -29488,7 +29488,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:textarea-success:hover {
     --tw-border-opacity: 1;
@@ -29497,7 +29497,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:textarea-warning:hover {
     --tw-border-opacity: 1;
@@ -29506,7 +29506,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:textarea-error:hover {
     --tw-border-opacity: 1;
@@ -29515,7 +29515,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .hover\:toggle-success:hover:focus-visible {
     outline-color: var(--fallback-su,oklch(var(--su)/1))}
@@ -29909,7 +29909,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:input-success:focus {
     --tw-border-opacity: 1;
@@ -29918,7 +29918,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:input-warning:focus {
     --tw-border-opacity: 1;
@@ -29927,7 +29927,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:input-error:focus {
     --tw-border-opacity: 1;
@@ -29936,7 +29936,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 @supports (color:color-mix(in oklab,black,black)) {
     @media (hover:hover) {
@@ -30123,7 +30123,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
     background-color: var(--fallback-in,oklch(var(--in)/0.2));
-    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:textarea-success:focus {
     --tw-border-opacity: 1;
@@ -30132,7 +30132,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
     background-color: var(--fallback-su,oklch(var(--su)/0.2));
-    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:textarea-warning:focus {
     --tw-border-opacity: 1;
@@ -30141,7 +30141,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
     background-color: var(--fallback-wa,oklch(var(--wa)/0.2));
-    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:textarea-error:focus {
     --tw-border-opacity: 1;
@@ -30150,7 +30150,7 @@ html:has(.drawer-open.drawer-open) {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
     background-color: var(--fallback-er,oklch(var(--er)/0.2));
-    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/0.2));
     --tw-shadow: var(--tw-shadow-colored)}
 .focus\:toggle-success:focus:focus-visible {
     outline-color: var(--fallback-su,oklch(var(--su)/1))}
