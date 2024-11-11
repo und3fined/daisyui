@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 4.12.16 (2024-11-11)
+
+
+### Bug Fixes
+
+* update tab heights in CSS for consistent styling ([a1a30c5](https://github.com/saadeghi/daisyui/commit/a1a30c5940db0aa3222adda5a0803c6e86884631))
+
 ## 4.12.15 (2024-11-10)
 
 ## 4.13.7 (2024-11-08)
