@@ -5009,15 +5009,16 @@ details.collapse summary::-webkit-details-marker {
 .input[list]::-webkit-calendar-picker-indicator {
     line-height: 1em}
 .input-bordered {
-    border-color: var(--fallback-bc,oklch(var(--bc)/0.2))}
+    border-color: var(--fallback-bc,oklch(var(--bc)/0.1))}
 .input:focus,
   .input:focus-within {
     box-shadow: none;
-    border-color: var(--fallback-bc,oklch(var(--bc)/0.2));
-    outline-style: solid;
-    outline-width: 2px;
-    outline-offset: 2px;
-    outline-color: var(--fallback-bc,oklch(var(--bc)/0.2))}
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-color: var(--fallback-bc,oklch(var(--bc)/0.3));
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    outline: 2px solid transparent;
+    outline-offset: 2px}
 .input-ghost {
     --tw-bg-opacity: 0.05}
 .input-ghost:focus,
@@ -27986,14 +27987,14 @@ html:has(.drawer-open.drawer-open) {
     line-height: 1rem;
     line-height: 1.625}
 .input-md {
-    height: 3rem;
+    height: 2.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
     line-height: 2}
 .input-lg {
-    height: 4rem;
+    height: 3rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-size: 1.125rem;
@@ -60982,14 +60983,14 @@ html:has(.drawer-open.drawer-open) {
         margin-right: 1.5rem;
         font-size: 1.125rem}
     .sm\:input-md {
-        height: 3rem;
+        height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2}
     .sm\:input-lg {
-        height: 4rem;
+        height: 3rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem;
@@ -61509,14 +61510,14 @@ html:has(.drawer-open.drawer-open) {
         margin-right: 1.5rem;
         font-size: 1.125rem}
     .md\:input-md {
-        height: 3rem;
+        height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2}
     .md\:input-lg {
-        height: 4rem;
+        height: 3rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem;
@@ -62036,14 +62037,14 @@ html:has(.drawer-open.drawer-open) {
         margin-right: 1.5rem;
         font-size: 1.125rem}
     .lg\:input-md {
-        height: 3rem;
+        height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2}
     .lg\:input-lg {
-        height: 4rem;
+        height: 3rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem;
@@ -62563,14 +62564,14 @@ html:has(.drawer-open.drawer-open) {
         margin-right: 1.5rem;
         font-size: 1.125rem}
     .xl\:input-md {
-        height: 3rem;
+        height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2}
     .xl\:input-lg {
-        height: 4rem;
+        height: 3rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         font-size: 1.125rem;
