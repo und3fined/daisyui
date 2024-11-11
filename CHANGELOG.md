@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 4.12.17 (2024-11-11)
+
+
+### Bug Fixes
+
+* adjust input border and height styles for consistency ([8020ec5](https://github.com/saadeghi/daisyui/commit/8020ec59466ca85b379a3d5dc0e8b4954d027ea5))
+
 ## 4.12.16 (2024-11-11)
 
 
