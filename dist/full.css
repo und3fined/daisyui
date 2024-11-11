@@ -3945,7 +3945,7 @@ html {
     position: relative;
     grid-row-start: 1;
     display: inline-flex;
-    height: 2rem;
+    height: 2.5rem;
     cursor: pointer;
     -webkit-user-select: none;
             user-select: none;
@@ -28232,7 +28232,7 @@ html:has(.drawer-open.drawer-open) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: repeat(1, minmax(0, 1fr))}
 .tabs-md :where(.tab) {
-    height: 2rem;
+    height: 2.5rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
     line-height: 2;
@@ -28244,12 +28244,12 @@ html:has(.drawer-open.drawer-open) {
     line-height: 2;
     --tab-padding: 1.25rem}
 .tabs-sm :where(.tab) {
-    height: 1.5rem;
+    height: 2rem;
     font-size: 0.875rem;
     line-height: .75rem;
     --tab-padding: 0.75rem}
 .tabs-xs :where(.tab) {
-    height: 1.25rem;
+    height: 1.5rem;
     font-size: 0.75rem;
     line-height: .75rem;
     --tab-padding: 0.5rem}
@@ -61131,7 +61131,7 @@ html:has(.drawer-open.drawer-open) {
     .sm\:stats-vertical {
         grid-auto-flow: row}
     .sm\:tabs-md :where(.tab) {
-        height: 2rem;
+        height: 2.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2;
@@ -61143,7 +61143,7 @@ html:has(.drawer-open.drawer-open) {
         line-height: 2;
         --tab-padding: 1.25rem}
     .sm\:tabs-sm :where(.tab) {
-        height: 1.5rem;
+        height: 2rem;
         font-size: 0.875rem;
         line-height: .75rem;
         --tab-padding: 0.75rem}
@@ -61658,7 +61658,7 @@ html:has(.drawer-open.drawer-open) {
     .md\:stats-vertical {
         grid-auto-flow: row}
     .md\:tabs-md :where(.tab) {
-        height: 2rem;
+        height: 2.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2;
@@ -61670,7 +61670,7 @@ html:has(.drawer-open.drawer-open) {
         line-height: 2;
         --tab-padding: 1.25rem}
     .md\:tabs-sm :where(.tab) {
-        height: 1.5rem;
+        height: 2rem;
         font-size: 0.875rem;
         line-height: .75rem;
         --tab-padding: 0.75rem}
@@ -62185,7 +62185,7 @@ html:has(.drawer-open.drawer-open) {
     .lg\:stats-vertical {
         grid-auto-flow: row}
     .lg\:tabs-md :where(.tab) {
-        height: 2rem;
+        height: 2.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2;
@@ -62197,7 +62197,7 @@ html:has(.drawer-open.drawer-open) {
         line-height: 2;
         --tab-padding: 1.25rem}
     .lg\:tabs-sm :where(.tab) {
-        height: 1.5rem;
+        height: 2rem;
         font-size: 0.875rem;
         line-height: .75rem;
         --tab-padding: 0.75rem}
@@ -62712,7 +62712,7 @@ html:has(.drawer-open.drawer-open) {
     .xl\:stats-vertical {
         grid-auto-flow: row}
     .xl\:tabs-md :where(.tab) {
-        height: 2rem;
+        height: 2.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         line-height: 2;
@@ -62724,7 +62724,7 @@ html:has(.drawer-open.drawer-open) {
         line-height: 2;
         --tab-padding: 1.25rem}
     .xl\:tabs-sm :where(.tab) {
-        height: 1.5rem;
+        height: 2rem;
         font-size: 0.875rem;
         line-height: .75rem;
         --tab-padding: 0.75rem}
