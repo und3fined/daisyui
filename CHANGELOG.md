@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 4.12.21 (2024-11-11)
+
+
+### Bug Fixes
+
+* enhance focus styles for input and textarea components for better visibility ([5db0134](https://github.com/saadeghi/daisyui/commit/5db013413b947e866324d8a1c1869f72660306e6))
+
 ## 4.12.20 (2024-11-11)
 
 
