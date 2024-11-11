@@ -10,12 +10,12 @@
     line-height: 1em;
   }
   &-bordered {
-    @apply border-base-content/20;
+    @apply border-base-content/10;
   }
   &:focus,
   &:focus-within {
     box-shadow: none;
-    @apply border-base-content/20 outline-base-content/20 outline outline-2 outline-offset-2;
+    @apply border-base-content/30 outline-none shadow;
   }
   &-ghost {
     @apply bg-opacity-5;
