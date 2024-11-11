@@ -15,7 +15,7 @@
   &:focus,
   &:focus-within {
     box-shadow: none;
-    @apply border-base-content/30 outline-none shadow;
+    @apply border-base-content/30 bg-base-100/80 outline-none shadow-md;
   }
   &-ghost {
     @apply bg-opacity-5;
@@ -29,49 +29,49 @@
     @apply border-primary;
     &:focus,
     &:focus-within {
-      @apply outline-primary border-primary;
+      @apply outline-primary border-primary shadow-primary;
     }
   }
   &-secondary {
     @apply border-secondary;
     &:focus,
     &:focus-within {
-      @apply outline-secondary border-secondary;
+      @apply outline-secondary border-secondary shadow-secondary;
     }
   }
   &-accent {
     @apply border-accent;
     &:focus,
     &:focus-within {
-      @apply outline-accent border-accent;
+      @apply outline-accent border-accent shadow-accent;
     }
   }
   &-info {
     @apply border-info;
     &:focus,
     &:focus-within {
-      @apply outline-info border-info;
+      @apply outline-info border-info shadow-info;
     }
   }
   &-success {
     @apply border-success;
     &:focus,
     &:focus-within {
-      @apply outline-success border-success;
+      @apply outline-success border-success shadow-success;
     }
   }
   &-warning {
     @apply border-warning;
     &:focus,
     &:focus-within {
-      @apply outline-warning border-warning;
+      @apply outline-warning border-warning shadow-warning;
     }
   }
   &-error {
     @apply border-error;
     &:focus,
     &:focus-within {
-      @apply outline-error border-error;
+      @apply outline-error border-error shadow-error;
     }
   }
   &:has(> input[disabled]),
