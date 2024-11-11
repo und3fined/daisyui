@@ -1,5 +1,5 @@
 .tabs-md :where(.tab) {
-  @apply h-8 text-sm leading-loose;
+  @apply h-10 text-sm leading-loose;
   --tab-padding: 1rem;
 }
 .tabs-lg :where(.tab) {
@@ -7,10 +7,10 @@
   --tab-padding: 1.25rem;
 }
 .tabs-sm :where(.tab) {
-  @apply h-6 text-sm leading-3;
+  @apply h-8 text-sm leading-3;
   --tab-padding: 0.75rem;
 }
 .tabs-xs :where(.tab) {
-  @apply h-5 text-xs leading-3;
+  @apply h-6 text-xs leading-3;
   --tab-padding: 0.5rem;
 }

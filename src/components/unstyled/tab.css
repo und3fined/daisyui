@@ -10,7 +10,7 @@
   }
 }
 .tab {
-  @apply relative row-start-1 inline-flex h-8 cursor-pointer select-none appearance-none flex-wrap items-center justify-center text-center text-sm leading-loose;
+  @apply relative row-start-1 inline-flex h-10 cursor-pointer select-none appearance-none flex-wrap items-center justify-center text-center text-sm leading-loose;
   --tab-padding: 1rem;
   &:is(input[type="radio"]) {
     @apply w-auto rounded-b-none;
