@@ -29,49 +29,49 @@
     @apply border-primary;
     &:focus,
     &:focus-within {
-      @apply border-primary shadow-primary/20 bg-primary/20;
+      @apply border-primary shadow-primary/10 bg-primary/10;
     }
   }
   &-secondary {
     @apply border-secondary;
     &:focus,
     &:focus-within {
-      @apply border-secondary shadow-secondary/20 bg-secondary/20;
+      @apply border-secondary shadow-secondary/10 bg-secondary/10;
     }
   }
   &-accent {
     @apply border-accent;
     &:focus,
     &:focus-within {
-      @apply border-accent shadow-accent/20 bg-accent/20;
+      @apply border-accent shadow-accent/10 bg-accent/10;
     }
   }
   &-info {
     @apply border-info;
     &:focus,
     &:focus-within {
-      @apply border-info shadow-info/20 bg-info/20;
+      @apply border-info shadow-info/10 bg-info/10;
     }
   }
   &-success {
     @apply border-success;
     &:focus,
     &:focus-within {
-      @apply border-success shadow-success/20 bg-success/20;
+      @apply border-success shadow-success/10 bg-success/10;
     }
   }
   &-warning {
     @apply border-warning;
     &:focus,
     &:focus-within {
-      @apply border-warning shadow-warning/20 bg-warning/20;
+      @apply border-warning shadow-warning/10 bg-warning/10;
     }
   }
   &-error {
     @apply border-error;
     &:focus,
     &:focus-within {
-      @apply border-error shadow-error/20 bg-error/20;
+      @apply border-error shadow-error/10 bg-error/10;
     }
   }
   &:has(> input[disabled]),
