@@ -5,7 +5,7 @@
   }
   &:focus {
     box-shadow: none;
-    @apply border-base-content/20 outline-base-content/20 outline outline-2 outline-offset-2;
+    @apply border-base-content/30 bg-base-100/80 outline-none shadow-md;
   }
   &-ghost {
     @apply bg-opacity-5;
@@ -17,43 +17,43 @@
   &-primary {
     @apply border-primary;
     &:focus {
-      @apply outline-primary border-primary;
+      @apply border-primary shadow-primary bg-primary/20;
     }
   }
   &-secondary {
     @apply border-secondary;
     &:focus {
-      @apply outline-secondary border-secondary;
+      @apply border-secondary shadow-secondary bg-secondary/20;
     }
   }
   &-accent {
     @apply border-accent;
     &:focus {
-      @apply outline-accent border-accent;
+      @apply border-accent shadow-accent bg-accent/20;
     }
   }
   &-info {
     @apply border-info;
     &:focus {
-      @apply outline-info border-info;
+      @apply border-info shadow-info bg-info/20;
     }
   }
   &-success {
     @apply border-success;
     &:focus {
-      @apply outline-success border-success;
+      @apply border-success shadow-success bg-success/20;
     }
   }
   &-warning {
     @apply border-warning;
     &:focus {
-      @apply outline-warning border-warning;
+      @apply border-warning shadow-warning bg-warning/20;
     }
   }
   &-error {
     @apply border-error;
     &:focus {
-      @apply outline-error border-error;
+      @apply border-error shadow-error bg-error/20;
     }
   }
   &-disabled,
