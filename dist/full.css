@@ -5015,8 +5015,9 @@ details.collapse summary::-webkit-details-marker {
     box-shadow: none;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     border-color: var(--fallback-bc,oklch(var(--bc)/0.3));
-    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    background-color: var(--fallback-b1,oklch(var(--b1)/0.8));
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     outline: 2px solid transparent;
     outline-offset: 2px}
 .input-ghost {
@@ -5034,6 +5035,8 @@ details.collapse summary::-webkit-details-marker {
     .input-primary:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-p,oklch(var(--p)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-p,oklch(var(--p)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-p,oklch(var(--p)/1))}
 .input-secondary {
     --tw-border-opacity: 1;
@@ -5042,6 +5045,8 @@ details.collapse summary::-webkit-details-marker {
     .input-secondary:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-s,oklch(var(--s)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-s,oklch(var(--s)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-s,oklch(var(--s)/1))}
 .input-accent {
     --tw-border-opacity: 1;
@@ -5050,6 +5055,8 @@ details.collapse summary::-webkit-details-marker {
     .input-accent:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-a,oklch(var(--a)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-a,oklch(var(--a)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-a,oklch(var(--a)/1))}
 .input-info {
     --tw-border-opacity: 1;
@@ -5058,6 +5065,8 @@ details.collapse summary::-webkit-details-marker {
     .input-info:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-in,oklch(var(--in)/1))}
 .input-success {
     --tw-border-opacity: 1;
@@ -5066,6 +5075,8 @@ details.collapse summary::-webkit-details-marker {
     .input-success:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-su,oklch(var(--su)/1))}
 .input-warning {
     --tw-border-opacity: 1;
@@ -5074,6 +5085,8 @@ details.collapse summary::-webkit-details-marker {
     .input-warning:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-wa,oklch(var(--wa)/1))}
 .input-error {
     --tw-border-opacity: 1;
@@ -5082,6 +5095,8 @@ details.collapse summary::-webkit-details-marker {
     .input-error:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-er,oklch(var(--er)/1))}
 .input:has(> input[disabled]),
   .input-disabled,
@@ -29242,6 +29257,8 @@ html:has(.drawer-open.drawer-open) {
 .hover\:input-info:hover:focus,.hover\:input-info:hover:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-in,oklch(var(--in)/1))}
 .hover\:input-success:hover {
     --tw-border-opacity: 1;
@@ -29249,6 +29266,8 @@ html:has(.drawer-open.drawer-open) {
 .hover\:input-success:hover:focus,.hover\:input-success:hover:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-su,oklch(var(--su)/1))}
 .hover\:input-warning:hover {
     --tw-border-opacity: 1;
@@ -29256,6 +29275,8 @@ html:has(.drawer-open.drawer-open) {
 .hover\:input-warning:hover:focus,.hover\:input-warning:hover:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-wa,oklch(var(--wa)/1))}
 .hover\:input-error:hover {
     --tw-border-opacity: 1;
@@ -29263,6 +29284,8 @@ html:has(.drawer-open.drawer-open) {
 .hover\:input-error:hover:focus,.hover\:input-error:hover:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-er,oklch(var(--er)/1))}
 @supports (color:color-mix(in oklab,black,black)) {
     @media (hover:hover) {
@@ -29861,6 +29884,8 @@ html:has(.drawer-open.drawer-open) {
 .focus\:input-info:focus:focus,.focus\:input-info:focus:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-in,oklch(var(--in)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-in,oklch(var(--in)/1))}
 .focus\:input-success:focus {
     --tw-border-opacity: 1;
@@ -29868,6 +29893,8 @@ html:has(.drawer-open.drawer-open) {
 .focus\:input-success:focus:focus,.focus\:input-success:focus:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-su,oklch(var(--su)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-su,oklch(var(--su)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-su,oklch(var(--su)/1))}
 .focus\:input-warning:focus {
     --tw-border-opacity: 1;
@@ -29875,6 +29902,8 @@ html:has(.drawer-open.drawer-open) {
 .focus\:input-warning:focus:focus,.focus\:input-warning:focus:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-wa,oklch(var(--wa)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-wa,oklch(var(--wa)/1))}
 .focus\:input-error:focus {
     --tw-border-opacity: 1;
@@ -29882,6 +29911,8 @@ html:has(.drawer-open.drawer-open) {
 .focus\:input-error:focus:focus,.focus\:input-error:focus:focus-within {
     --tw-border-opacity: 1;
     border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
+    --tw-shadow-color: var(--fallback-er,oklch(var(--er)/1));
+    --tw-shadow: var(--tw-shadow-colored);
     outline-color: var(--fallback-er,oklch(var(--er)/1))}
 @supports (color:color-mix(in oklab,black,black)) {
     @media (hover:hover) {
